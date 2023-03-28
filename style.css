@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');:root{
+  --DB--: hsl(233, 26%, 24%);
+  --LB--: hsl(136, 65%, 51%);
+  --BC--: hsl(192, 70%, 51%);
+
+  --GB--: hsl(233, 8%, 62%);
+  --LGB--: hsl(220, 16%, 96%); 
+  --VLG--: hsl(0, 0%, 98%);
+  --W--: hsl(0, 0%, 100%);
+}
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+  background: url('images/bg.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+nav{
+  background: #F1F6F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  padding-left: 100px;
+  padding-right: 70px;
+}
+
+
+.menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+
+}
+ .menu a{
+    text-decoration: none;
+    color: var(--GB--);
+    font-weight: bold;
+    padding: 30px  20px 20px 30px;
+    
+ }
+
+ .menu a:hover{
+     color: #FD8A8A;
+     
+}
+
+.button a{
+   text-decoration: none;
+   color: #fff;
+   border: 3px solid transparent;
+   background: #FD8A8A;
+   padding: 5px 20px 5px 20px;
+   font-weight: bold;
+   border-radius: 25px;
+   font-size: 20px;
+   transition: 0.3s;
+}
+
+.button a:hover {
+  color: #FD8A8A;
+  background: none;
+  border: 3px solid #FD8A8A;
+}
+
+.content{
+text-align: left;
+margin-top: 100px;
+margin-left: 450px;
+font-family: 'Delicious Handrawn', cursive;
+line-height: 80px;
+}
+.content h1{
+  font-family: 'Alkatra', cursive;
+  font-size: 100px;
+  color: #0A2647;
+
+}
+
+
+
